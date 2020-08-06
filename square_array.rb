@@ -1,8 +1,6 @@
 def square_array(array)
   array.each do |numbers|
-     new_numbers = square_array(array)
-     return new_numbers
-
+     new_numbers = square_array(numbers)
   end
-  # your code here
+  return new_numbers
 end
