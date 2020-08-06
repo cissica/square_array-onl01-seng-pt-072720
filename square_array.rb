@@ -1,6 +1,7 @@
 def square_array(array)
   array.each do |numbers|
-    returns square_array(array) 
+     new_numbers = quare_array(array)
+     return new_numbers
 
   end
   # your code here
